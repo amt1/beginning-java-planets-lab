@@ -16,7 +16,9 @@ public class Planet {
         return this.size;
     }
 
-    public String explode(){
-       return "Boom! "+ this.name + " has exploded.";
+    public void explode(){
+        System.out.println("Boom! "+ this.name + " has exploded.");
     }
 }
+
+// cmd n for menu to generate functions
